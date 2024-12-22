@@ -1,0 +1,76 @@
+.callRow {
+  min-height: 68px;
+  border-bottom: 1px solid var(--table-row-border-color);
+  padding: 0 40px;
+  cursor: pointer;
+}
+
+.callRow:hover {
+  background-color: var(--table-row-hover-color);
+}
+
+.callRowCell {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.darkText {
+  color: var(--menu-text-hover-color);
+}
+
+.lightText {
+  color: var(--secondary-text-color);
+}
+
+.cellTextRight {
+  text-align: end;
+  padding-right: 20px;
+}
+
+.contactName {
+  color: var(--menu-text-hover-color);
+  margin-bottom: 10px;
+}
+
+.contactCompany {
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+
+.callRowRating {
+  border: 1px solid;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+.ratingGood {
+  color: var(--good-rating-text-color);
+  background-color: var(--good-rating-background-color);
+  border-color: var(--menu-placeholder-color);
+}
+
+.ratingGreat {
+  color: var(--great-rating-text-color);
+  background-color: var(--great-rating-background-color);
+  border-color: var(--great-rating-text-color);
+}
+
+.ratingBad {
+  color: var(--bad-rating-text-color);
+  background-color: var(--bad-rating-background-color);
+  border-color: var(--bad-rating-text-color);
+}
+
+.noRating {
+  color: transparent;
+}
+
+.playBarWrapper{
+  display: flex;
+  justify-content: flex-end;
+}

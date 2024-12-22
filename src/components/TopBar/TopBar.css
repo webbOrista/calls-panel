@@ -1,0 +1,30 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.filtersWrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.removeAllFilters {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.removeAllFilters img {
+  margin-left: 8px;
+}
+
+.visible {
+  visibility: visible;
+}

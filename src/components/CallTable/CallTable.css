@@ -1,0 +1,76 @@
+.callTable {
+  box-sizing: border-box;
+  width: 80%;
+  min-width: 1000px;
+  min-height: 90%;
+  border-radius: 8px;
+  padding: 25px 0 50px 0;
+  background-color: var(--secondary-background-color);
+}
+
+.tableHeaderItem {
+  border-bottom: 1px solid var(--table-row-border-color);
+  padding-bottom: 20px;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: start;
+  text-wrap: nowrap;
+}
+
+.tablePaddingLeft {
+  padding-left: 40px;
+}
+
+.tableHeaderPaddingRight {
+  padding-right: 20px;
+}
+
+.tablePaddingRight {
+  padding-right: 40px;
+}
+
+.textRight {
+  text-align: end;
+  
+}
+
+.filterIcon {
+  margin: 0 0 1px 8px;
+  cursor: pointer;
+}
+
+.informText {
+  padding: 60px 0 40px;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.separatorRow {
+  position: relative;
+  top: -2px;
+  z-index: 2;
+  text-align: left;
+  background-color: var(--secondary-background-color);
+}
+
+.separator {
+  border-bottom: 1px solid var(--table-row-border-color);
+  padding: 42px 0 16px 40px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.callCountPin {
+  position: relative;
+  top: -6px;
+  display: inline-block;
+  margin-left: 2px;
+  color: var(--menu-text-color);
+  font-weight: 400;
+  font-size: 12px;
+  background-color: transparent;
+}
