@@ -2,7 +2,7 @@
   "name": "data-visualization",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://webbOrista.github.io/calls-panel",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

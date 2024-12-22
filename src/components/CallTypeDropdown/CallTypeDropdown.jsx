@@ -43,7 +43,7 @@ const CallTypeDropdown = ({ sortByType, resetFiltersTrigger }) => {
       <div className="callType" onClick={handleToggle}>
         <p className={selectedType !== "Все типы" ? "selectedItem" : ""}>{selectedType}</p>
         <img
-          src={isOpen ? "/assets/arrowChooseUp.svg" : "/assets/arrowChoose.svg"}
+          src={isOpen ? "assets/arrowChooseUp.svg" : "assets/arrowChoose.svg"}
           alt="выбрать"
         />
       </div>

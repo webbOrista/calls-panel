@@ -72,7 +72,7 @@ function CallTable({ callList, isLoading }) {
                 <span>Время</span>
                 <img
                   className="filterIcon"
-                  src="/assets/arrowChoose.svg"
+                  src="assets/arrowChoose.svg"
                   alt="выбрать"
                 />
               </th>
@@ -96,18 +96,18 @@ function CallTable({ callList, isLoading }) {
               </th>
               <th
                 className="tableHeaderItem"
-                style={{ width: "calc(120 / 1440 * 100%)" }}
+                style={{ width: "calc(110 / 1440 * 100%)" }}
               >
                 Оценка
               </th>
               <th
                 className="tableHeaderItem tableHeaderPaddingRight textRight"
-                style={{ width: "calc(470 / 1440 * 100%)" }}
+                style={{ width: "calc(480 / 1440 * 100%)" }}
               >
                 <span>Длительность</span>
                 <img
                   className="filterIcon"
-                  src="/assets/arrowChoose.svg"
+                  src="assets/arrowChoose.svg"
                   alt="выбрать"
                 />
               </th>

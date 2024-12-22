@@ -31,13 +31,13 @@ const CallRow = ({ call }) => {
   };
 
   const getCallIconPath = (inOut, status) => {
-    if (inOut === 1 && status === "Дозвонился") return "/assets/callInIcon.svg";
+    if (inOut === 1 && status === "Дозвонился") return "assets/callInIcon.svg";
     if (inOut === 0 && status === "Дозвонился")
-      return "/assets/callOutIcon.svg";
+      return "assets/callOutIcon.svg";
     if (inOut === 1 && status === "Не дозвонился")
-      return "/assets/missedCallIcon.svg";
+      return "assets/missedCallIcon.svg";
     if (inOut === 0 && status === "Не дозвонился")
-      return "/assets/notAnsweredCallIcon.svg";
+      return "assets/notAnsweredCallIcon.svg";
     return null;
   };
 
@@ -87,7 +87,7 @@ const CallRow = ({ call }) => {
     }
   };
   const callIconPath = getCallIconPath(call.in_out, call.status);
-  const avatarSrc = call.person_avatar || "/assets/avatarFallback.svg";
+  const avatarSrc = call.person_avatar || "assets/avatarFallback.svg";
   const callRecord = call.record;
   const partnerId = call.partnership_id;
   const isValid = callRecord && partnerId;
@@ -108,13 +108,13 @@ const CallRow = ({ call }) => {
         <img
           src={avatarSrc}
           alt="Аватар"
-          style={{ width: "40px", height: "40px", borderRadius: "50%" }}
+          className="avatarPicture"
         />
       </td>
       <td className="callRowCell darkText">
         <div>
-          <p className="contactName">{call.contact_name || ""}</p>
-          <p className="contactCompany">{call.contact_company || ""}</p>
+        {call.contact_name && <p className="contactName">{call.contact_name}</p>}
+        {call.contact_company && <p className="contactCompany">{call.contact_company}</p>}
           {formatPhoneNumber(call.partner_data?.phone) || "Неизвестно"}
         </div>
       </td>

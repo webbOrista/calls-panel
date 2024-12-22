@@ -10,7 +10,7 @@ function TopBar({ sortByType, sortByDate, resetFilters, isFilterApplied, resetFi
       {isFilterApplied && (
           <div className="removeAllFilters" onClick={resetFilters}>
             Сбросить фильтры
-            <img src="/assets/cross.svg" alt="close" />
+            <img src="assets/cross.svg" alt="закрыть" />
           </div>
         )}
       </div>

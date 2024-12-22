@@ -1,7 +1,5 @@
 .callRow {
-  min-height: 68px;
   border-bottom: 1px solid var(--table-row-border-color);
-  padding: 0 40px;
   cursor: pointer;
 }
 
@@ -10,11 +8,18 @@
 }
 
 .callRowCell {
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-size: 15px;
   font-weight: 400;
   line-height: 21px;
+}
+
+.avatarPicture{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 5px;
 }
 
 .darkText {

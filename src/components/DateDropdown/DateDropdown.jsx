@@ -68,12 +68,12 @@ const DateDropdown = ({ sortByDate, resetFiltersTrigger }) => {
   return (
     <div className="dateDropdown" ref={dropdownRef}>
       <div className="dateRange" onClick={() => setIsOpen(!isOpen)}>
-        <img src="/assets/arrowLeft.svg" alt="дата" />
+        <img src="assets/arrowLeft.svg" alt="дата" />
         <div className="rangeWrapper">
-          <img src="/assets/calendar.svg" alt="дата" />
+          <img src="assets/calendar.svg" alt="дата" />
           <p className="selectedItem">{selectedType}</p>
         </div>
-        <img src="/assets/arrowRight.svg" alt="дата" />
+        <img src="assets/arrowRight.svg" alt="дата" />
       </div>
       {isOpen && (
         <div className="dateDropdownMenu">
@@ -124,7 +124,7 @@ const DateDropdown = ({ sortByDate, resetFiltersTrigger }) => {
             >
               <img
                 className="menuCalendar"
-                src="/assets/calendar.svg"
+                src="assets/calendar.svg"
                 alt="дата"
               />
             </button>
